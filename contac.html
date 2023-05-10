@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+	<link rel="icon" href="img/WEB.ico">
+	<link rel ="stylesheet" href="CSS/hojaestilos.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+</head>
+<body>
+	<div class="header">
+        <a href="" class="logo">star web designsº</a>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class='bx bx-menu' id="icono" ></i>
+        </label>
+		<nav>
+        
+            <a class="active" href="index.html">Inicio</a></li>
+            <a class="active" href="servico.html">servicios</a></li>
+            <a class="active" href="proyectos.html">proyectos</a></li>
+            <a class="active" href="#">contacto </a></li>
+                
+            
+        </nav>
+    </div>	
+  
+  <!-- formulario de contacto en html y css -->
+	
+
+	<div class="contact_form">
+		
+		<div class="formulario">			
+			<h3>Escríbeme y en breve me pondre en contacto contigo</h3>
+
+			<form action="https://formsubmit.co/starwebdeveloper.st@gmail.com" method="post">				
+				<div class="nom-email">
+					<input type="text" name="name" id="nombre" required="obligatorio" placeholder="Nombre completo">
+					<input type="email" name="email" id="email" required="obligatorio" placeholder=" Direccion de correo electronico">
+				</div>
+				<div class="tel-asun">
+					<input type="tel" name="tel" id="telefono" placeholder="Numero de teléfono">
+					<input type="text" name="subject" id="assunto" required="obligatorio" placeholder="El asunto">
+				</div>
+		
+				
+				<div>
+					<textarea name="coments" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Su mensaje"></textarea> 
+				</div>                
+                	  
+                								
+							
+				<button type="submit" value="Enviar" id="enviar"><p>Enviar el mensaje</p></button>
+
+				<h2 class="aviso">
+					<span class="obligatorio"> * </span>los campos son obligatorios
+				</h2>
+				<input type="hidden" name="_next" value="http://localhost/Mi_proyecto_de_web/contac.html">
+				
+				<input type="hidden" name="_captcha" value="false">
+						
+			</form>
+		</div>	
+	</div>
+
+</body>
+</html>
+
+
+<!-- creado por javiniguez.com, Julio 2019 -->
