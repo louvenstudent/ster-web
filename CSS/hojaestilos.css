@@ -21,7 +21,7 @@
   --color7: #fff;
   --color8: linear-gradient(90deg,#330867,#31a7bb);
   --color9:#0ef;
-  --color10:linear-gradient(70deg,#00dbde,#051c1d)
+  --color10:linear-gradient(70deg,#00dbde,#051c1d);
   --color_tar:linear-gradient(90deg,#ff3c5f,#260e69);
 }
 body {
