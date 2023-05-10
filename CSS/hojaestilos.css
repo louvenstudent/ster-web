@@ -264,7 +264,7 @@ span {
 } 
 
 .carta {
-    background:var(--color_tar);
+    background:linear-gradient(90deg,#ff3c5f,#260e69);
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
