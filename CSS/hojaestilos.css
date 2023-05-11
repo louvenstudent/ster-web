@@ -185,61 +185,6 @@ span {
     margin-left: auto; 
   
 }
-/*.lateral:hover{
-    border: solid 3px;
-    color: var(--color9);
-    width: 31.5rem;
-}*/
-@media(max-width:952px){
-    html{
-        font-size: 55%;
-    }
-    .cuerpo {
-        grid-template-columns: auto;
-    }
-    .lateral{
-        margin-top: 20px;
-        left: 50%;
-        background: transparent;
-        box-shadow: none;
-    }
-    
-    .cuerpo00{
-        text-align: start;
-    }
-    
-    .lateral img {
-        border: solid 3.5px var(--color9) ;
-    }
-    
-
-}
-@media(max-width:768px){
-    .header nav{
-        position: absolute;
-        top: 100%;
-        left:0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: #260e69;
-        transition: all 10s;
-        display: none;
-    }
-    .header nav a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-    #icono {
-        display: block;
-    }
-    #check:checked ~ nav {
-        display: block;
-
-    }
-
-    
-}
  
 /*proyectos*/
 
@@ -324,6 +269,57 @@ span {
     margin-top: 20px;
     margin-bottom:20px ;
     
+}
+@media(max-width:952px){
+    html{
+        font-size: 55%;
+    }
+    .cuerpo {
+        grid-template-columns: auto;
+    }
+    .lateral{
+        margin-top: 20px;
+        left: 50%;
+        background: transparent;
+        box-shadow: none;
+    }
+    
+    .cuerpo00{
+        text-align: start;
+    }
+    
+    .lateral img {
+        border: solid 3.5px var(--color9) ;
+    }
+    .carta:hover {
+        border: none;
+        box-shadow: 0 0 1rem var(--color3);
+        transform: translateY(0%);
+    }
+}
+@media(max-width:768px){
+    .header nav{
+        position: absolute;
+        top: 100%;
+        left:0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #260e69;
+        transition: all 10s;
+        display: none;
+    }
+    .header nav a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    #icono {
+        display: block;
+    }
+    #check:checked ~ nav {
+        display: block;
+
+    }
 }
 .formulario textarea {
     width: 100%;
@@ -434,3 +430,4 @@ span {
     box-shadow: 0 0 1rem var(--color3);
     
 }
+
